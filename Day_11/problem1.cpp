@@ -1,4 +1,4 @@
-// Write a program to Write function to find sum of two numbers.
+// Write function to find sum of two numbers.
 
 #include <iostream>
 using namespace std;
