@@ -1,5 +1,4 @@
 // Write a program to Find largest and smallest element.
-
 #include <iostream>
 using namespace std;
 
@@ -8,11 +7,11 @@ int main() {
     cout << "Enter the size of the array: ";
     cin >> n;
 
-    int arr[n]; // Declare an array of size n
+    int arr[n];
 
     cout << "Enter " << n << " elements:" << endl;
     for (int i = 0; i < n; i++) {
-        cin >> arr[i]; // Input elements into the array
+        cin >> arr[i];
     }
 
     int largest = arr[0];
