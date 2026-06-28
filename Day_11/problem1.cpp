@@ -1,4 +1,3 @@
-// Write function to find sum of two numbers.
 
 #include <iostream>
 using namespace std;

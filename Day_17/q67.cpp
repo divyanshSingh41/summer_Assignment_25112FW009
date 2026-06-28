@@ -27,7 +27,7 @@ int main() {
 
     set<int> st;
 
-    // Store first array elements
+  
     for (int i = 0; i < n1; i++) {
         st.insert(a[i]);
     }
@@ -37,7 +37,7 @@ int main() {
     for (int i = 0; i < n2; i++) {
         if (st.find(b[i]) != st.end()) {
             cout << b[i] << " ";
-            st.erase(b[i]);   // Remove after printing to avoid duplicates
+            st.erase(b[i]);  
         }
     }
 
